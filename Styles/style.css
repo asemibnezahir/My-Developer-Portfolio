@@ -1,0 +1,185 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Shared Styles*/
+.theme-color
+{
+    color: #FD6E0A;
+}
+.secondary-bg{
+    background-color:#FFF8F3
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.prime-btn
+{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-desc{
+    font-size:18px;
+    font-weight: normal;
+    color: #757575;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* header bg */
+.head{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    /* background-position: top left,bottom right; */
+    background-position: 20px,bottom right;
+}
+/*Nav Bar Design*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title
+{
+    font-weight: 800;
+    font-size: 45;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Designing Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-cont{
+    max-width: 700px;
+    padding-left: 180px;
+}
+.Ban-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.Ban-name{
+    font-size: 85px;
+}
+
+.Ban-image{
+    width: 560px;
+    height: 670px;
+    padding-right: 38px;
+}
+.bt-pad1{
+    margin-left: 15px;
+}
+.bt-pad2{
+    margin-right: 15px;
+}
+
+
+/* Designing About Section */
+.about{
+    width: 1140px;
+    height: 550px;
+    margin: 130px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-layer-2{
+    width: 827px;
+    height: 288px;
+    background-color: #FFFFFF;
+}
+.about-layer-2{
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.info p{
+    font-size: 16px;
+}
+
+
+
+/* Skills Section Design */
+.skills{
+    text-align: center;
+}
+.unique{
+    margin: 30px 345px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    padding: 0px 230px;
+    text-align: left;
+}
+.skill-title{
+    font-size: 20px;
+    padding: 30px;
+}
+.skill-desc{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    padding: 0px 30px 30px;
+}
+.skill-im{
+    margin-left: 30px;
+}
+.skill-name{
+    padding: 30px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
