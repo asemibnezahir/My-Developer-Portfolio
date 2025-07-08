@@ -225,3 +225,46 @@ nav ul li a{
     display: flex;
     justify-content: center;
 }
+
+
+
+
+/* Footer Section Design */
+.foot-container{
+    padding: 130px 230px;
+    display: flex;
+    gap: 115px;
+}
+.foot-container .section-title{
+    text-align: left;
+}
+.connect p{
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+.social-media img{
+    margin-right: 20px;
+}
+
+.feed input[type="text"]{
+    height: 64px;
+    width: 481px;
+    border-radius: 5px;
+}
+.feed input[type="email"]{
+    height: 64px;
+    width: 481px;
+    border-radius: 5px;
+}
+.feed input::placeholder,.feed textarea::placeholder{
+    font-family: "Open Sans", sans-serif;
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.feed input,.feed textarea{
+    font-family: "Open Sans", sans-serif;
+    margin: 12px 0px;
+    border: none;
+}
+
